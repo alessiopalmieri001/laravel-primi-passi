@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('secondaryPage', function () {
     return view('secondaryPage');
 });
+
+Route::get('terzaPagina', function () {
+    return view('terzaPagina');
+});
+
+Route::get('quartaPagina', function () {
+    return view('quartaPagina');
+});
